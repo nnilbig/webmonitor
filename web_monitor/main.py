@@ -7,7 +7,7 @@ from email.header import Header
 
 # 從環境變數讀取秘密資訊 (這是為了安全！)
 TARGET_URL = "https://www.chuncheonmarathon.com/"
-KEYWORD = "2026"
+KEYWORD = "2025"
 GMAIL_USER = os.getenv("GMAIL_USER")
 GMAIL_PASSWORD = os.getenv("GMAIL_PASSWORD")
 RECEIVER_EMAIL = os.getenv("RECEIVER_EMAIL")
